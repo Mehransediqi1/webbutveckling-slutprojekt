@@ -13,34 +13,33 @@
   <header>
     <nav>
       <div class="logo">Mehran•Et</div>
-      <div class="menu-toggle" id="menuToggle">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
+      
       <ul class="nav-links" id="navLinks">
-        <li><a href="#about">Om oss</a></li>
-        <li><a href="#menu">Meny</a></li>
         <li><a href="#gallery">Galleri</a></li>
+        <li><a href="#menu">Meny</a></li>
+        <li><a href="#about">Om oss</a></li>
         <li><a href="#contact">Kontakt</a></li>
       </ul>
     </nav>
-    <div class="hero-text">
-      <h1>Välkommen till Mehran•Et</h1>
-      <p>En köttupplevelse utöver det vanliga</p>
+    <div class="hamburger-menu">
+      <i class="fa-solid fa-bars"></i>
     </div>
   </header>
-
-  <section id="about" class="section">
-    <h2>Om oss</h2>
-    <p>Hos Mehran-Et serverar vi passionerat tillagat kött av högsta kvalitet.</p>
-  </section>
-
-  <section id="menu" class="section">
-    <h2>Meny</h2>
-    <p>Upptäck våra ikoniska rätter – från Tomahawk till vår guldöverdragna steak. En smakresa du aldrig glömmer.</p>
-    <img src="uppgift 2.jpg" alt="Meny" width="700" height="500">
-  </section>
+  <div class="hamburger-menu-list">
+    <div class="remove">
+      <i class="fa-solid fa-xmark"></i>
+    </div>
+    <ul>
+      <li><a href="#gallery">Galleri</a></li>
+      <li><a href="#menu">Meny</a></li>
+      <li><a href="#about">Om oss</a></li>
+      <li><a href="#contact">Kontakt</a></li>
+    </ul>
+  </div>
+  <div class="hero-text">
+    <h1>Välkommen till Mehran•Et</h1>
+    <p>En köttupplevelse utöver det vanliga</p>
+  </div>
 
   <section id="gallery" class="section gallery">
     <h2>Galleri</h2>
@@ -51,16 +50,33 @@
       <img src="170718175221-singlethread-exterior.jpg" alt="Restaurant">
     </div>
   </section>
+
+  <section id="menu" class="section">
+    <h2>Meny</h2>
+    <p>Upptäck våra ikoniska rätter – från Tomahawk till vår guldöverdragna steak. En smakresa du aldrig glömmer.</p>
+    <img src="uppgift 2.jpg" alt="Meny" width="700" height="500">
+  </section>
+
+  <section id="about" class="section">
+    <h2>Om oss</h2>
+    <p>Hos Mehran-Et serverar vi passionerat tillagat kött av högsta kvalitet.</p>
+  </section>
+  
 <section id="contact" class="section">
   <h1>Kontakt</h1>
   <div class="contact-columns">
     <div class="contact-box">
       <h2>Hitta oss</h2>
-      <p>Burj Khalifa<br>123 45 Dubai</p>
+      <p>Burj Khalifa </p>
+      <p>123 45 Dubai</p>
     </div>
     <div class="contact-box">
       <h2>Öppettider</h2>
-      <p><i class="fa-solid fa-clock"></i>Mån–Fre: 20:00–05:00<br>Lör–Sön: 20:00-03:00</p>
+
+      <div>
+        <p><span><i class="fa-solid fa-clock"></i></span> <span>Mån-Fre </span> <span>20:00 - 05:00</span></p>
+        <p><span><i class="fa-solid fa-clock"></i></span> <span>Lör-Sön </span> <span>18:00 - 07:00</span></p>
+      </div>
     </div>
     <div class="contact-box">
       <h2>Kontakta oss</h2>
@@ -74,6 +90,6 @@
     </div>
   </div>
 </section>
-  <script src="script.js"></script>
+  <script src="inlämning.js"></script>
 </body>
 </html>

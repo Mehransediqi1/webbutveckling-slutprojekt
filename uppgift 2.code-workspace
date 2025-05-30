@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../uppgift"
+		},
+		{
+			"path": "../../../om mig sida"
+		},
+		{
+			"path": "../../../kontakter"
+		},
+		{
+			"path": "../../../halloween"
+		},
+		{
+			"path": "../../../Början"
+		},
+		{
+			"path": "../../../boxmodel"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "uppgift 2"
+	}
+}
